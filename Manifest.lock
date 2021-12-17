@@ -112,6 +112,7 @@ PODS:
   - Mantle/extobjc (2.1.6)
   - Masonry (1.1.0)
   - MBProgressHUD (1.2.0)
+  - MGSwipeTableCell (1.6.11)
   - MJRefresh (3.5.0)
   - nanopb (2.30907.0):
     - nanopb/decode (= 2.30907.0)
@@ -149,6 +150,7 @@ PODS:
   - StripeCore (21.8.0)
   - SwiftyJSON (4.3.0)
   - Toast (4.0.0)
+  - TTTAttributedLabel (2.0.0)
   - UITableView-NXEmptyView (0.1.7)
   - YYModel (1.0.4)
   - ZXingObjC (3.6.5):
@@ -170,6 +172,7 @@ DEPENDENCIES:
   - Mantle
   - Masonry
   - MBProgressHUD
+  - MGSwipeTableCell
   - MJRefresh
   - OCMock (~> 3.8.1)
   - PINCache (= 3.0.1)
@@ -181,6 +184,7 @@ DEPENDENCIES:
   - Stripe (= 21.8.0)
   - SwiftyJSON (~> 4.0)
   - Toast
+  - TTTAttributedLabel
   - UITableView-NXEmptyView
   - YYModel
   - ZXingObjC
@@ -228,7 +232,9 @@ SPEC REPOS:
     - YYModel
     - ZXingObjC
   trunk:
+    - MGSwipeTableCell
     - RegexKitLite-NoWarning
+    - TTTAttributedLabel
 
 SPEC CHECKSUMS:
   ActionSheetPicker-3.0: 36da254b97a09ff89679ecb8b8510bd3e5bdc773
@@ -254,6 +260,7 @@ SPEC CHECKSUMS:
   Mantle: 4c0ed6ce47c96eccc4dc3bb071deb3def0e2c3be
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MGSwipeTableCell: b804e4e450dee439c42250be90bd50458bf67fce
   MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
   nanopb: 59221d7f958fb711001e6a449489542d92ae113e
   OCMock: 29f6e52085b4e7d9b075cbf03ed7c3112f82f934
@@ -269,10 +276,11 @@ SPEC CHECKSUMS:
   StripeCore: 91768f1a34839f97016194c3440d48186335fe45
   SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
   UITableView-NXEmptyView: 0bc404cfd9c201af518a63240ac4ac4dad2c69c2
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
   ZXingObjC: fdbb269f25dd2032da343e06f10224d62f537bdb
 
-PODFILE CHECKSUM: d07cb9023ed39bfd93ddcf27f73214f16d08f0b4
+PODFILE CHECKSUM: 3a98c90d42278cf626034a48ebcf5b6bdbed015b
 
 COCOAPODS: 1.11.2
