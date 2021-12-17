@@ -135,6 +135,7 @@ PODS:
     - PINCache (~> 3.0.1)
     - PINRemoteImage/Core
   - PromisesObjC (1.2.12)
+  - RegexKitLite-NoWarning (1.1.0)
   - Reveal-SDK (28)
   - SDWebImage (5.10.4):
     - SDWebImage/Core (= 5.10.4)
@@ -173,6 +174,7 @@ DEPENDENCIES:
   - OCMock (~> 3.8.1)
   - PINCache (= 3.0.1)
   - PINRemoteImage (= 3.0.1)
+  - RegexKitLite-NoWarning
   - Reveal-SDK
   - SDWebImage
   - SSZipArchive
@@ -225,6 +227,8 @@ SPEC REPOS:
     - UITableView-NXEmptyView
     - YYModel
     - ZXingObjC
+  trunk:
+    - RegexKitLite-NoWarning
 
 SPEC CHECKSUMS:
   ActionSheetPicker-3.0: 36da254b97a09ff89679ecb8b8510bd3e5bdc773
@@ -257,6 +261,7 @@ SPEC CHECKSUMS:
   PINOperation: 00c935935f1e8cf0d1e2d6b542e75b88fc3e5e20
   PINRemoteImage: 3b7cedb118c2d357f87e9eabc7c81ba0202cb236
   PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
+  RegexKitLite-NoWarning: 365d208f8187997e33d9de8baeddfc00728596d8
   Reveal-SDK: 1a2a678648fc4d277bad71c86d15530424324288
   SDWebImage: c666b97e1fa9c64b4909816a903322018f0a9c84
   SSZipArchive: 62d4947b08730e4cda640473b0066d209ff033c9
@@ -268,6 +273,6 @@ SPEC CHECKSUMS:
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
   ZXingObjC: fdbb269f25dd2032da343e06f10224d62f537bdb
 
-PODFILE CHECKSUM: 61f1af4a475dce009623bcf10e208df80ee6206e
+PODFILE CHECKSUM: d07cb9023ed39bfd93ddcf27f73214f16d08f0b4
 
 COCOAPODS: 1.11.2
