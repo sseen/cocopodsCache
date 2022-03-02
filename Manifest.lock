@@ -20,6 +20,8 @@ PODS:
     - AppAuth/ExternalUserAgent (= 1.4.0)
   - AppAuth/Core (1.4.0)
   - AppAuth/ExternalUserAgent (1.4.0)
+  - BFRImageViewer (1.2.9):
+    - PINRemoteImage (~> 3.0.0)
   - CocoaLumberjack (3.7.0):
     - CocoaLumberjack/Core (= 3.7.0)
   - CocoaLumberjack/Core (3.7.0)
@@ -160,6 +162,7 @@ PODS:
 DEPENDENCIES:
   - ActionSheetPicker-3.0
   - AFNetworking
+  - BFRImageViewer
   - CocoaLumberjack
   - DateTools
   - Firebase/Analytics
@@ -232,6 +235,7 @@ SPEC REPOS:
     - YYModel
     - ZXingObjC
   trunk:
+    - BFRImageViewer
     - MGSwipeTableCell
     - RegexKitLite-NoWarning
     - TTTAttributedLabel
@@ -240,6 +244,7 @@ SPEC CHECKSUMS:
   ActionSheetPicker-3.0: 36da254b97a09ff89679ecb8b8510bd3e5bdc773
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   AppAuth: 31bcec809a638d7bd2f86ea8a52bd45f6e81e7c7
+  BFRImageViewer: 57f7ba6055956d383b49577a78643fa442e70aa4
   CocoaLumberjack: e8955b9d337ac307103b0a34fd141c32f27e53c5
   DateTools: 933ac9c490f21f92127cf690ccd8c397e0126caf
   Firebase: cd2ab85eec8170dc260186159f21072ecb679ad5
@@ -281,6 +286,6 @@ SPEC CHECKSUMS:
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
   ZXingObjC: fdbb269f25dd2032da343e06f10224d62f537bdb
 
-PODFILE CHECKSUM: 56b1e594ecdb8f46c2e5044d72ee486020c6e5e6
+PODFILE CHECKSUM: 7bc18e99e4bc4b0d1dd12bf81c2a092cd9490b92
 
 COCOAPODS: 1.11.2
